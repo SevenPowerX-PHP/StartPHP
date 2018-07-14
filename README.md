@@ -25,3 +25,14 @@ Hi splaa! You've successfully authenticated, but GitHub does not provide shell a
 	ssh://git@ssh.github.com:443/yourname/reponame.git
 
 	git clone ssh://git@ssh.github.com:443/SevenPowerX-PHP/StartPHP.git
+
+
+Или you can override your SSH settings to force any connection to GitHub to run though that server and port 
+
+To set this in your ssh config, edit the file at ~/.ssh/config, and add this section:
+
+	Host github.com
+	  Hostname ssh.github.com
+	  Port 443
+
+	https://help.github.com/articles/using-ssh-over-the-https-port/
