@@ -22,5 +22,6 @@ Hi splaa! You've successfully authenticated, but GitHub does not provide shell a
 
 если по 443 всё Ок то сылка должна иметь вид
 
-ssh://git@ssh.github.com:443/yourname/reponame.git
-git clone ssh://git@ssh.github.com:443/SevenPowerX-PHP/StartPHP.git
+	ssh://git@ssh.github.com:443/yourname/reponame.git
+
+	git clone ssh://git@ssh.github.com:443/SevenPowerX-PHP/StartPHP.git
